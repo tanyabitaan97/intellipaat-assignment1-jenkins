@@ -23,7 +23,7 @@ pipeline {
 
         stage('Run Container (Only on master)') {
             when {
-                branch 'master'
+                branch 'main'
             }
             steps {
                 script {
